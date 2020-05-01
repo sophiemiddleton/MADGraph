@@ -1,0 +1,90 @@
+
+<head>
+    <title>Process results</title>
+    <script type="text/javascript" src="../sortable.js"></script>
+    <link rel=stylesheet href="../mgstyle.css" type="text/css">
+</head>
+<body>
+<script type="text/javascript">
+function UrlExists(url) {
+  var http = new XMLHttpRequest();
+  http.open('HEAD', url, false);
+  try{
+     http.send()
+     }
+  catch(err){
+   return 1==2;
+  }
+  return http.status!=404;
+}
+function check_link(url,alt, id){
+    var obj = document.getElementById(id);
+    if ( ! UrlExists(url)){
+        if ( ! UrlExists(alt)){
+         obj.href = alt;
+         return true;
+        }
+       obj.href = alt;
+       return false;
+    }
+    obj.href = url;
+    return 1==1;
+}
+</script>
+  
+
+ <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>s= 38085 &#177 146 (pb)</b><br><br>
+<table class="sortable" id='tablesort'>
+<tr><th>Graph</th>
+    <th> Cross-Section</th>
+    <th>Error</th>
+    <th>Events (K)</th>
+    <th>Unwgt</th>
+    <th>Luminosity</th>
+</tr>
+
+<tr><td align=right>/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/BREM_soCalledWabs_forLDMX/SubProcesses/P1_emn_emna</td>
+    <td align=right><a id="#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/BREM_soCalledWabs_forLDMX/SubProcesses/P1_emn_emna" href=#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/BREM_soCalledWabs_forLDMX/SubProcesses/P1_emn_emna onClick="check_link('#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/BREM_soCalledWabs_forLDMX/SubProcesses/P1_emn_emna','#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/BREM_soCalledWabs_forLDMX/SubProcesses/P1_emn_emna','#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/BREM_soCalledWabs_forLDMX/SubProcesses/P1_emn_emna')"> 3.809e+04 </a> </td>
+    <td align=right>  146</td>
+    <td align=right>  166.938</td>
+    <td align=right>  18490.0</td>
+    <td align=right>  0</td>
+</tr>
+
+</table>
+</center>
+<br><br><br>
+ <dl>  
+
+ <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>s= 38085 &#177 146 (pb)</b><br><br>
+<table class="sortable" id='tablesort'>
+<tr><th>Graph</th>
+    <th> Cross-Section</th>
+    <th>Error</th>
+    <th>Events (K)</th>
+    <th>Unwgt</th>
+    <th>Luminosity</th>
+</tr>
+
+<tr><td align=right>G1</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/BREM_soCalledWabs_forLDMX/SubProcesses/P1_emn_emna/../../SubProcesses/P1_emn_emna/G1/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/BREM_soCalledWabs_forLDMX/SubProcesses/P1_emn_emna/../../SubProcesses/P1_emn_emna/G1/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/BREM_soCalledWabs_forLDMX/SubProcesses/P1_emn_emna/../../SubProcesses/P1_emn_emna/G1/run1_app.log','../../SubProcesses/P1_emn_emna/G1/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/BREM_soCalledWabs_forLDMX/SubProcesses/P1_emn_emna/../../SubProcesses/P1_emn_emna/G1/run1_app.log')"> 5713 </a> </td>
+    <td align=right>  46.1</td>
+    <td align=right>  43.592</td>
+    <td align=right>  3860.0</td>
+    <td align=right>  0.675</td>
+</tr>
+
+<tr><td align=right>G2</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/BREM_soCalledWabs_forLDMX/SubProcesses/P1_emn_emna/../../SubProcesses/P1_emn_emna/G2/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/BREM_soCalledWabs_forLDMX/SubProcesses/P1_emn_emna/../../SubProcesses/P1_emn_emna/G2/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/BREM_soCalledWabs_forLDMX/SubProcesses/P1_emn_emna/../../SubProcesses/P1_emn_emna/G2/run1_app.log','../../SubProcesses/P1_emn_emna/G2/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/BREM_soCalledWabs_forLDMX/SubProcesses/P1_emn_emna/../../SubProcesses/P1_emn_emna/G2/run1_app.log')"> 3.237e+04 </a> </td>
+    <td align=right>  138</td>
+    <td align=right>  123.346</td>
+    <td align=right>  14630.0</td>
+    <td align=right>  0.451</td>
+</tr>
+
+</table>
+</center>
+<br><br><br>
+ </dl></body>

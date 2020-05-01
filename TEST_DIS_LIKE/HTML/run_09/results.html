@@ -1,0 +1,530 @@
+
+<head>
+    <title>Process results</title>
+    <script type="text/javascript" src="../sortable.js"></script>
+    <link rel=stylesheet href="../mgstyle.css" type="text/css">
+</head>
+<body>
+<script type="text/javascript">
+function UrlExists(url) {
+  var http = new XMLHttpRequest();
+  http.open('HEAD', url, false);
+  try{
+     http.send()
+     }
+  catch(err){
+   return 1==2;
+  }
+  return http.status!=404;
+}
+function check_link(url,alt, id){
+    var obj = document.getElementById(id);
+    if ( ! UrlExists(url)){
+        if ( ! UrlExists(alt)){
+         obj.href = alt;
+         return true;
+        }
+       obj.href = alt;
+       return false;
+    }
+    obj.href = url;
+    return 1==1;
+}
+</script>
+  
+
+ <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>s= 2.5638e-11 &#177 1.82e-12 (pb)</b><br><br>
+<table class="sortable" id='tablesort'>
+<tr><th>Graph</th>
+    <th> Cross-Section</th>
+    <th>Error</th>
+    <th>Events (K)</th>
+    <th>Unwgt</th>
+    <th>Luminosity</th>
+</tr>
+
+<tr><td align=right>/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau</td>
+    <td align=right><a id="#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau" href=#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau onClick="check_link('#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau','#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau','#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  12.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac</td>
+    <td align=right><a id="#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac" href=#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac onClick="check_link('#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac','#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac','#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac')"> 2.564e-11 </a> </td>
+    <td align=right>  1.82e-12</td>
+    <td align=right>  90.042</td>
+    <td align=right>  246.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad</td>
+    <td align=right><a id="#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad" href=#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad onClick="check_link('#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad','#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad','#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  12.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas</td>
+    <td align=right><a id="#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas" href=#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas onClick="check_link('#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas','#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas','#/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  12.0</td>
+    <td align=right>  0</td>
+</tr>
+
+</table>
+</center>
+<br><br><br>
+ <dl>  
+
+ <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>s= 0 &#177 0 (pb)</b><br><br>
+<table class="sortable" id='tablesort'>
+<tr><th>Graph</th>
+    <th> Cross-Section</th>
+    <th>Error</th>
+    <th>Events (K)</th>
+    <th>Unwgt</th>
+    <th>Luminosity</th>
+</tr>
+
+<tr><td align=right>G1</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G1/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G1/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G1/run1_app.log','../../SubProcesses/P1_emu_emau/G1/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G1/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G2</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G2/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G2/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G2/run1_app.log','../../SubProcesses/P1_emu_emau/G2/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G2/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G3</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G3/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G3/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G3/run1_app.log','../../SubProcesses/P1_emu_emau/G3/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G3/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G4</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G4/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G4/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G4/run1_app.log','../../SubProcesses/P1_emu_emau/G4/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G4/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G5</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G5/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G5/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G5/run1_app.log','../../SubProcesses/P1_emu_emau/G5/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G5/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G6</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G6/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G6/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G6/run1_app.log','../../SubProcesses/P1_emu_emau/G6/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G6/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G7</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G7/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G7/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G7/run1_app.log','../../SubProcesses/P1_emu_emau/G7/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G7/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G8</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G8/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G8/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G8/run1_app.log','../../SubProcesses/P1_emu_emau/G8/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G8/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G9</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G9/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G9/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G9/run1_app.log','../../SubProcesses/P1_emu_emau/G9/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G9/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G10</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G10/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G10/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G10/run1_app.log','../../SubProcesses/P1_emu_emau/G10/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G10/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G11</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G11/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G11/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G11/run1_app.log','../../SubProcesses/P1_emu_emau/G11/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G11/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G12</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G12/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G12/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G12/run1_app.log','../../SubProcesses/P1_emu_emau/G12/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emu_emau/../../SubProcesses/P1_emu_emau/G12/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+</table>
+</center>
+<br><br><br>
+  
+
+ <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>s= 2.5638e-11 &#177 1.82e-12 (pb)</b><br><br>
+<table class="sortable" id='tablesort'>
+<tr><th>Graph</th>
+    <th> Cross-Section</th>
+    <th>Error</th>
+    <th>Events (K)</th>
+    <th>Unwgt</th>
+    <th>Luminosity</th>
+</tr>
+
+<tr><td align=right>G1</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G1/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G1/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G1/run1_app.log','../../SubProcesses/P1_emc_emac/G1/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G1/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G2</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G2/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G2/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G2/run1_app.log','../../SubProcesses/P1_emc_emac/G2/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G2/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G3</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G3/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G3/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G3/run1_app.log','../../SubProcesses/P1_emc_emac/G3/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G3/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G4</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G4/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G4/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G4/run1_app.log','../../SubProcesses/P1_emc_emac/G4/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G4/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G5</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G5/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G5/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G5/run1_app.log','../../SubProcesses/P1_emc_emac/G5/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G5/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G6</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G6/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G6/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G6/run1_app.log','../../SubProcesses/P1_emc_emac/G6/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G6/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G7</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G7/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G7/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G7/run1_app.log','../../SubProcesses/P1_emc_emac/G7/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G7/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G8</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G8/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G8/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G8/run1_app.log','../../SubProcesses/P1_emc_emac/G8/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G8/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G9</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G9/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G9/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G9/run1_app.log','../../SubProcesses/P1_emc_emac/G9/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G9/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G10</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G10/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G10/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G10/run1_app.log','../../SubProcesses/P1_emc_emac/G10/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G10/run1_app.log')"> 2.564e-11 </a> </td>
+    <td align=right>  1.82e-12</td>
+    <td align=right>  30.014</td>
+    <td align=right>  126.0</td>
+    <td align=right>  4.91e+12</td>
+</tr>
+
+<tr><td align=right>G11</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G11/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G11/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G11/run1_app.log','../../SubProcesses/P1_emc_emac/G11/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G11/run1_app.log')"> 1.828e-18 </a> </td>
+    <td align=right>  1.11e-19</td>
+    <td align=right>  30.014</td>
+    <td align=right>  10.0</td>
+    <td align=right>  5.47e+18</td>
+</tr>
+
+<tr><td align=right>G12</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G12/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G12/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G12/run1_app.log','../../SubProcesses/P1_emc_emac/G12/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emc_emac/../../SubProcesses/P1_emc_emac/G12/run1_app.log')"> 9.535e-33 </a> </td>
+    <td align=right>  6.61e-34</td>
+    <td align=right>  30.014</td>
+    <td align=right>  101.0</td>
+    <td align=right>  1.06e+34</td>
+</tr>
+
+</table>
+</center>
+<br><br><br>
+  
+
+ <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>s= 0 &#177 0 (pb)</b><br><br>
+<table class="sortable" id='tablesort'>
+<tr><th>Graph</th>
+    <th> Cross-Section</th>
+    <th>Error</th>
+    <th>Events (K)</th>
+    <th>Unwgt</th>
+    <th>Luminosity</th>
+</tr>
+
+<tr><td align=right>G1</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G1/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G1/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G1/run1_app.log','../../SubProcesses/P1_emd_emad/G1/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G1/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G2</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G2/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G2/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G2/run1_app.log','../../SubProcesses/P1_emd_emad/G2/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G2/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G3</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G3/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G3/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G3/run1_app.log','../../SubProcesses/P1_emd_emad/G3/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G3/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G4</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G4/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G4/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G4/run1_app.log','../../SubProcesses/P1_emd_emad/G4/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G4/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G5</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G5/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G5/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G5/run1_app.log','../../SubProcesses/P1_emd_emad/G5/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G5/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G6</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G6/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G6/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G6/run1_app.log','../../SubProcesses/P1_emd_emad/G6/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G6/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G7</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G7/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G7/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G7/run1_app.log','../../SubProcesses/P1_emd_emad/G7/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G7/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G8</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G8/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G8/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G8/run1_app.log','../../SubProcesses/P1_emd_emad/G8/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G8/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G9</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G9/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G9/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G9/run1_app.log','../../SubProcesses/P1_emd_emad/G9/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G9/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G10</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G10/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G10/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G10/run1_app.log','../../SubProcesses/P1_emd_emad/G10/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G10/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G11</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G11/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G11/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G11/run1_app.log','../../SubProcesses/P1_emd_emad/G11/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G11/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G12</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G12/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G12/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G12/run1_app.log','../../SubProcesses/P1_emd_emad/G12/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_emd_emad/../../SubProcesses/P1_emd_emad/G12/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+</table>
+</center>
+<br><br><br>
+  
+
+ <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>s= 0 &#177 0 (pb)</b><br><br>
+<table class="sortable" id='tablesort'>
+<tr><th>Graph</th>
+    <th> Cross-Section</th>
+    <th>Error</th>
+    <th>Events (K)</th>
+    <th>Unwgt</th>
+    <th>Luminosity</th>
+</tr>
+
+<tr><td align=right>G1</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G1/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G1/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G1/run1_app.log','../../SubProcesses/P1_ems_emas/G1/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G1/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G2</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G2/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G2/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G2/run1_app.log','../../SubProcesses/P1_ems_emas/G2/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G2/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G3</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G3/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G3/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G3/run1_app.log','../../SubProcesses/P1_ems_emas/G3/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G3/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G4</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G4/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G4/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G4/run1_app.log','../../SubProcesses/P1_ems_emas/G4/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G4/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G5</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G5/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G5/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G5/run1_app.log','../../SubProcesses/P1_ems_emas/G5/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G5/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G6</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G6/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G6/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G6/run1_app.log','../../SubProcesses/P1_ems_emas/G6/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G6/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G7</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G7/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G7/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G7/run1_app.log','../../SubProcesses/P1_ems_emas/G7/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G7/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G8</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G8/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G8/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G8/run1_app.log','../../SubProcesses/P1_ems_emas/G8/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G8/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G9</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G9/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G9/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G9/run1_app.log','../../SubProcesses/P1_ems_emas/G9/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G9/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G10</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G10/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G10/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G10/run1_app.log','../../SubProcesses/P1_ems_emas/G10/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G10/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G11</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G11/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G11/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G11/run1_app.log','../../SubProcesses/P1_ems_emas/G11/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G11/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+<tr><td align=right>G12</td>
+    <td align=right><a id="/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G12/run1_app.log" href=/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G12/run1_app.log onClick="check_link('/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G12/run1_app.log','../../SubProcesses/P1_ems_emas/G12/log.txt','/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/SubProcesses/P1_ems_emas/../../SubProcesses/P1_ems_emas/G12/run1_app.log')"> 0 </a> </td>
+    <td align=right>  0</td>
+    <td align=right>  0.0</td>
+    <td align=right>  1.0</td>
+    <td align=right>  0</td>
+</tr>
+
+</table>
+</center>
+<br><br><br>
+ </dl></body>

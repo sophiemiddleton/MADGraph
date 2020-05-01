@@ -1,0 +1,123 @@
+#************************************************************
+#*               MadGraph5_aMC@NLO/MadEvent                 *
+#*                                                          *
+#*                *                       *                 *
+#*                  *        * *        *                   *
+#*                    * * * * 5 * * * *                     *
+#*                  *        * *        *                   *
+#*                *                       *                 *
+#*                                                          *
+#*                                                          *
+#*         VERSION 2.7.2                 2020-03-17         *
+#*                                                          *
+#*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+#*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+#*                                                          *
+#************************************************************
+#*                                                          *
+#*               Command File for MadEvent                  *
+#*                                                          *
+#*     run as ./bin/madevent.py filename                    *
+#*                                                          *
+#************************************************************
+generate_events run_09
+Traceback (most recent call last):
+  File "/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/madgraph/interface/extended_cmd.py", line 1515, in onecmd
+    return self.onecmd_orig(line, **opt)
+  File "/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/madgraph/interface/extended_cmd.py", line 1464, in onecmd_orig
+    return func(arg, **opt)
+  File "/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/madgraph/interface/madevent_interface.py", line 2469, in do_generate_events
+    self.run_generate_events(switch_mode, args)
+  File "/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/madgraph/interface/common_run_interface.py", line 6963, in new_fct
+    original_fct(obj, *args, **opts)
+  File "/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/madgraph/interface/madevent_interface.py", line 2508, in run_generate_events
+    postcmd=False)
+  File "/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/madgraph/interface/extended_cmd.py", line 1544, in exec_cmd
+    stop = Cmd.onecmd_orig(current_interface, line, **opt)
+  File "/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/madgraph/interface/extended_cmd.py", line 1464, in onecmd_orig
+    return func(arg, **opt)
+  File "/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/madgraph/interface/madevent_interface.py", line 3324, in do_survey
+    self.configure_directory()
+  File "/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/madgraph/interface/madevent_interface.py", line 5668, in configure_directory
+    self.compile(arg=[name], cwd=os.path.join(self.me_dir, 'Source'))
+  File "/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/madgraph/interface/extended_cmd.py", line 1608, in compile
+    return misc.compile(nb_core=self.options['nb_core'], *args, **opts)
+  File "/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/madgraph/various/misc.py", line 532, in compile
+    raise MadGraph5Error, error_text
+MadGraph5Error: A compilation Error occurs when trying to compile /home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/TEST_DIS_LIKE/Source.
+The compilation fails with the following output message:
+    gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132  -c -o setrun.o setrun.f
+    cuts.inc:2:9:
+    
+          REAL*8 PLABmin    ! minimum energy in lab frame
+             1
+    Error: Syntax error in data declaration at (1)
+    run_card.inc:15:9:
+    
+           PB1 = 0.0000000000D+00
+             1
+    Error: Symbol ‘pb1’ at (1) has no IMPLICIT type
+    run_card.inc:17:9:
+    
+           PB2 = 0.0000000000D+00
+             1
+    Error: Symbol ‘pb2’ at (1) has no IMPLICIT type
+    run_card.inc:347:13:
+    
+           PLABMAX = 1.0000000000D+02
+                 1
+    Error: Symbol ‘plabmax’ at (1) has no IMPLICIT type
+    run_card.inc:345:13:
+    
+           PLABMIN = 5.0000000000D-02
+                 1
+    Error: Symbol ‘plabmin’ at (1) has no IMPLICIT type
+    <builtin>: recipe for target 'setrun.o' failed
+    make: *** [setrun.o] Error 1
+    
+Please try to fix this compilations issue and retry.
+Help might be found at https://answers.launchpad.net/mg5amcnlo.
+If you think that this is a bug, you can report this at https://bugs.launchpad.net/mg5amcnlo
+                              Run Options    
+                              -----------    
+               stdout_level 	:	20 (user set)
+
+                         MadEvent Options    
+                         ----------------    
+     automatic_html_opening 	:	False (user set)
+        notification_center 	:	True
+          cluster_temp_path 	:	None
+             cluster_memory 	:	None (user set)
+               cluster_size 	:	100
+              cluster_queue 	:	None (user set)
+                    nb_core 	:	1 (user set)
+               cluster_time 	:	1 (user set)
+                   run_mode 	:	2
+
+                      Configuration Options    
+                      ---------------------    
+                text_editor 	:	None
+         cluster_local_path 	:	None
+      cluster_status_update 	:	(600, 30)
+               pythia8_path 	:	/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/HEPTools/pythia8 (user set)
+                  hwpp_path 	:	None (user set)
+            pythia-pgs_path 	:	None (user set)
+                    td_path 	:	None (user set)
+               delphes_path 	:	None (user set)
+                thepeg_path 	:	None (user set)
+               cluster_type 	:	condor
+          madanalysis5_path 	:	None (user set)
+           cluster_nb_retry 	:	1
+                 eps_viewer 	:	None
+                web_browser 	:	None
+               syscalc_path 	:	None (user set)
+           madanalysis_path 	:	None (user set)
+                     lhapdf 	:	lhapdf-config
+              f2py_compiler 	:	None
+                 hepmc_path 	:	None (user set)
+         cluster_retry_wait 	:	300
+           fortran_compiler 	:	None
+                auto_update 	:	7 (user set)
+        exrootanalysis_path 	:	/home/sophie/Desktop/MADGraph/MG5_aMC_v2_7_1_2/ExRootAnalysis (user set)
+                    timeout 	:	60
+               cpp_compiler 	:	None
